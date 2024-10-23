@@ -31,7 +31,6 @@ jobs:
         username: ${{secrets.DOCKER_USERNAME}}
         password: ${{secrets.DOCKER_PASSWORD}}
         logout: false
- 
     # 使用shell命令批量同步所需的镜像到阿里云个人仓库中
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
